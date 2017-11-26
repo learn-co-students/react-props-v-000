@@ -10,7 +10,9 @@ class Movies extends React.Component {
 
     return (
       <div>
-        {renderedMovies}
+        <fieldset width='300px' >
+          {renderedMovies}
+        </fieldset>
       </div>
     )
   }
