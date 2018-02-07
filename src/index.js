@@ -28,6 +28,10 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+MovieCard.dafualtProps = {
+    poster: 'http://i.imgur.com/bJw8ndW.png'
+};
+
 ReactDOM.render(
   <MovieCard
   title="Jurassic Park"
